@@ -1,0 +1,501 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Two possitive integers",
+        "description": "",
+        "id": "sum-possitive-integers;two-possitive-integers;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 130096449,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "two numbers: \u002712\u0027, \u002718\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 14
+                },
+                {
+                  "val": "18",
+                  "offset": 20
+                }
+              ],
+              "location": "CommonsMath.two_positive_numbers_first_number_second_number(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42115,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I sum them",
+            "match": {
+              "location": "CommonsMath.i_sum_them()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 341518,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Their sum should be \u002730\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 21
+                }
+              ],
+              "location": "CommonsMath.their_sum_should_be_sum(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@OPEN"
+          },
+          {
+            "line": 4,
+            "name": "@COM-2"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Two possitive integers",
+        "description": "",
+        "id": "sum-possitive-integers;two-possitive-integers;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 261536,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "two numbers: \u002720\u0027, \u00275\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 14
+                },
+                {
+                  "val": "5",
+                  "offset": 20
+                }
+              ],
+              "location": "CommonsMath.two_positive_numbers_first_number_second_number(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28312,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I sum them",
+            "match": {
+              "location": "CommonsMath.i_sum_them()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 191463,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Their sum should be \u002725\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25",
+                  "offset": 21
+                }
+              ],
+              "location": "CommonsMath.their_sum_should_be_sum(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@OPEN"
+          },
+          {
+            "line": 4,
+            "name": "@COM-2"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Two possitive integers",
+        "description": "",
+        "id": "sum-possitive-integers;two-possitive-integers;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 322053,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "two numbers: \u002712\u0027, \u00275\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 14
+                },
+                {
+                  "val": "5",
+                  "offset": 20
+                }
+              ],
+              "location": "CommonsMath.two_positive_numbers_first_number_second_number(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22296,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I sum them",
+            "match": {
+              "location": "CommonsMath.i_sum_them()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 330548,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Their sum should be \u002717\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "17",
+                  "offset": 21
+                }
+              ],
+              "location": "CommonsMath.their_sum_should_be_sum(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@OPEN"
+          },
+          {
+            "line": 4,
+            "name": "@COM-2"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Three possitive integers",
+        "description": "",
+        "id": "sum-possitive-integers;three-possitive-integers;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 716304,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "three numbers: \u002712\u0027, \u002718\u0027, \u002730\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 16
+                },
+                {
+                  "val": "18",
+                  "offset": 22
+                },
+                {
+                  "val": "30",
+                  "offset": 28
+                }
+              ],
+              "location": "CommonsMath.three_numbers(int,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21942,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I sum them",
+            "match": {
+              "location": "CommonsMath.i_sum_them()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138023,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Their sum should be \u002760\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "60",
+                  "offset": 21
+                }
+              ],
+              "location": "CommonsMath.their_sum_should_be_sum(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@OPEN"
+          },
+          {
+            "line": 19,
+            "name": "@COM-2"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Three possitive integers",
+        "description": "",
+        "id": "sum-possitive-integers;three-possitive-integers;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 686575,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "three numbers: \u002720\u0027, \u00275\u0027, \u002725\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 16
+                },
+                {
+                  "val": "5",
+                  "offset": 22
+                },
+                {
+                  "val": "25",
+                  "offset": 27
+                }
+              ],
+              "location": "CommonsMath.three_numbers(int,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24773,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I sum them",
+            "match": {
+              "location": "CommonsMath.i_sum_them()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148994,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Their sum should be \u002750\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 21
+                }
+              ],
+              "location": "CommonsMath.their_sum_should_be_sum(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@OPEN"
+          },
+          {
+            "line": 19,
+            "name": "@COM-2"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Three possitive integers",
+        "description": "",
+        "id": "sum-possitive-integers;three-possitive-integers;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1369612,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "three numbers: \u002712\u0027, \u00275\u0027, \u002717\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 16
+                },
+                {
+                  "val": "5",
+                  "offset": 22
+                },
+                {
+                  "val": "17",
+                  "offset": 27
+                }
+              ],
+              "location": "CommonsMath.three_numbers(int,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40346,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I sum them",
+            "match": {
+              "location": "CommonsMath.i_sum_them()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 787085,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Their sum should be \u002734\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "34",
+                  "offset": 21
+                }
+              ],
+              "location": "CommonsMath.their_sum_should_be_sum(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@OPEN"
+          },
+          {
+            "line": 19,
+            "name": "@COM-2"
+          }
+        ]
+      }
+    ],
+    "name": "Sum possitive integers",
+    "description": "",
+    "id": "sum-possitive-integers",
+    "keyword": "Feature",
+    "uri": "65-sum-possitive-integers.feature"
+  }
+]
